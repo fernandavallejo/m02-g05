@@ -1,287 +1,187 @@
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Delicious+Handrawn&display=swap');
+
+ * {margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;}
 
 
-.about {
-    margin-bottom: 50px;
+body {background-color: #F4E9CD;}
+
+.menu {list-style: none; padding: 0px; background: #18314F; font-size:20px; text-align: center; position: fixed;}
+
+.dropdown-content a:hover {
+
+	color: #FFFFFF;
+	background-color: #85093B;
 }
 
-.about .box {
-    display: flex;
-    flex-direction: row;
-    margin: 20 px 0;
+.dropdown {
+
+		display: inline-block;
+		position: relative;
 }
 
-.about .box .year_company {
-    min-width: 150px;
-    margin-right: 20px;
+.dropdown button {
+
+	background-color: #18314F;
+	border: none;
+	color: white;
+	font-size: 27px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
+.dropdown-content {
 
-.about .box .year_company h4 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-size: 16px;
-}
-
-.about .box .year_company h5 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
-}
-
-.about:last-child {
-    margin-bottom: 0;
-}
-
-
-body {
-
-    background-color: #EB86BF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-
-.contactInfo {
-    padding-top: 40px;
-    color:#EB86BF
-}
-
-.contactInfo ul {
-    padding-left: 0;
-}
-
-.contactInfo ul {
-    position: relative;
-}
-
-.contactInfo ul li {
-    position: relative;
-    list-style: none;
-    margin: 10px 0;
-    cursor: pointer;
-}
-
-.contactInfo ul li .icon {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #EB86BF;
-}
-
-.contactInfo ul li span {
-    color: #EB86BF;
-    font-weight: 300;
-}
-
-.contactInfo .education li {
-    margin-bottom: 15px;
-}
-
-.contactInfo .education h5 {
-    color: #EB86BF;
-    font-weight: 500;
-}
-
-.contactInfo .education h4:nth-child(2) {
-    color: #EB86BF;
-    font-weight: 500;
-}
-
-.contactInfo .education h4 {
-    color: #EB86BF;
-    font-weight: 300;
-}
-
-.contactInfo .language .percent {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: #f0f0f0;
-    display: block;
-    margin-top: 5px;
-}
-
-.contactInfo .language .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #EB86BF;
-}
-
-.container {
-
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    background: #f5ffc6;
-    margin: 50px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+	display: none;
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
 
 }
 
-.container .left_side {
+.dropdown:hover .dropdown-content {
 
-    position: relative;
-    background: #f5ffc6;
-    padding: 10px 20px;
-
-}
-
-.container .right_side {
-
-    position: relative;
-    background: #b4e1ff;
-    padding: 40px;
-}
-
-.design_title {
-    font-size: 20px;
-    color: #EB86BF;
-}
-
-.font_titles {
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #EB86BF;
-}
-
-.font_texts {
-    font-family: 'Coming Soon', cursive;
+	display: block;
 }
 
 
-.imgBx {
-    text-align: center;
-    padding-bottom: 20px;
-}
+.dropdown-content a {
 
-.interest ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.interest ul li {
-    list-style: none;
-    color: #EB86BF;
-    font-weight: 500;
-    margin: 10px 0;
+	display: block;
+	color: #FFFFFF;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 20px;
 
 }
 
+.dropdown-content a:hover {
 
-
-
-p {
-    color: #EB86BF;
+	color: #FFFFFF;
+	background-color: #3D73B5;
 }
 
+.dropdown button:hover {
 
-.photo {
-    width: 200px;
-    border-radius: 50%;
+	color: #FFFFFF;
+	background-color: #3D73B5;
 }
 
-.profileText {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+#bienvenida p {color: white; font-size: 30px; position: absolute; margin-left: 700px; margin-right: 150px; margin-top: 120px;}
+
+#sobretini p {color: white; font-size: 30px; position: absolute; margin-left: 230px; margin-right: 700px; margin-top: 120px;}
+
+main img {
+	width: 500px;
+	padding: 50px;
+	justify-content: center;
 }
 
-
-.skills .box {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills .box h4 {
-    text-transform: uppercase;
-    color: #EB86BF;
-    font-weight: 500;
-}
-
-.skills .box .percent {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f0f0f0;
-    display: block;
-    margin-top: 5px;
-}
-
-
-.skills .box .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #EB86BF;
+main h1{
+	color: black;
+	font-size: 30px;
+	text-align: center;
 
 }
 
-.subtitle {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header{font-size: 60px; text-align: center; color: white;}
+header img {width: 1462px;}
+
+footer {background-color: #18314F; height: 200px; margin-top: 80px;}
+
+footer a {color: white; margin-left: 35px; font-size: 30px;}
+
+footer img {width: 30px; position: absolute;}
+#tini {margin-top: 30px; position: absolute;}
+#tour {margin-top: 80px; position: absolute;}
+#fco {margin-top: 135px; position: absolute;}
+
+#insta {margin-left: 600px;}
+
+#contenedor img {width: 350px;}
+#tini1 {margin-left: 230px; margin-top: 40px;}
+#tini2 {margin-top: 30px; margin-left: 910px;}
+
+nav {display: flex; align-items: center; justify-content: space-between;padding-top: 20px; padding-left:5%; padding-right:5%; padding-bottom: 20px; font-weight: bold; background-color: #18314F; height: 150px;}
+
+h1 {
+	color: white; 
+	font-size: 40px;
+	padding: 20px;
+
 }
 
-
-.title {
-    color: #EB86BF;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+ul li {display: inline-block;
+	padding: 0px 20px;
+	margin-right:70px; ;
 }
 
-.title2 {
-    color: #EB86BF;
-    text.transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+li a:hover {list-style-type: none;
+	color: #FFFFFF;
+	background-color: #3D73B5;
 }
 
-
-
-@media (max-width:1000px) {
-    .container {
-        margin: 10px;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .interest ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 27px;
+	font-family: 'Open Sans', sans-serif;
 }
 
+a:hover {color:#F4E9CD;}
 
-@media(max-width:600px) {
-    .about .box {
-        flex-direction: column;
-    }
+#albumes {padding: 50px; margin-left: 110px; margin-bottom: 100px;}
+#album1 {display: inline-block;padding: 20px;}
+#album2 {display: inline-block;padding: 20px;}
+#album3 {display: inline-block;padding: 20px;}
+#album4 {display: inline-block;padding: 20px;}
 
-    .about .box .year_company {
-        margin-bottom: 5px;
-    }
-
-    .interest ul {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .skills .box {
-        grid-template-columns: repeat(1, 1fr);
-    }
+h2 {color: white; 
+	font-size: 60px;
+	margin-left: 600px;
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
 }
+
+p {color: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*tipografías https://fonts.google.com/specimen/Open+Sans?preview.text=Whereas%20recognition%20of%20the%20inherent%20Indignity&preview.text_type=custom&category=Sans+Serif*/
+
+#cancionesizquierda {font-size: 25px; display: inline-block; margin-left: 300px; margin-top:100px;position:relative; }
+#cancionesderecha {font-size: 25px; display: inline-block; margin-left: 90px; margin-top:100px;position:absolute; }
+
+#cancionesizquierda4 {font-size: 25px; display: inline-block; margin-left: 500px; margin-top:50px;position:relative; }
+#cancionesderecha4 {font-size: 25px; display: inline-block; margin-left: 90px; margin-top:50px;position:absolute; }
+
+#foto2016 img {width: 250px; position: absolute;}
+#foto2016 p {font-size: 30px; margin-left: 300px; position: relative; background-color: #AA104F;}
+#foto2016 {display: inline-block; position: absolute;}
+#foto1 {margin-left: 200px; margin-top: 90px;}
+
+
+#footeralbum1 {margin-top: 100px;}
+
+#footeralbum2 {margin-top: 100px; }
+
+#foto2018 p {font-size: 30px; margin-left: 300px; position: relative; background-color: #036312;}
+#foto2018 img {width: 250px; position: absolute;}
+#foto2018 {display: inline-block; position: absolute;}
+
+#foto2023 p {font-size: 30px; margin-left: 300px; position: relative;}
+#foto2023 img {width: 250px; position: absolute;}
+#foto2023 {display: inline-block; position: absolute;}
+
+
+
+
+#alejandro img {margin-left: 60px; display: inline-block; margin-top: 20px; width: 300px;}
+#alejandro p {display: inline-block; position: absolute; margin-left: 60px; margin-top: 20px; font-size: 23px; margin-right: 60px;}
+
+#mariana img {margin-left: 150px; display: inline-block; margin-top: 20px; width: 350px;} 
+#mariana p {display: inline-block; position: absolute; margin-left: 100px; margin-top: 20px; font-size: 23px; margin-right: 150px;}
+
+#francisco img {margin-left: 150px; display: inline-block; margin-top: 20px; width: 350px;} 
+#francisco p {display: inline-block; position: absolute; margin-left: 100px; margin-top: 20px; font-size: 23px; margin-right: 150px;}
