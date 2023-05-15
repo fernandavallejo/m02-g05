@@ -5,3 +5,4 @@
 - Katherine Sepúlveda
 - Pascuala Ramos
 - Belén Silva
+- Paula Muñoz
