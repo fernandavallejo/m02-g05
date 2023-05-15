@@ -4,3 +4,4 @@
 - María Fernanda Nahum
 - Katherine Sepúlveda
 - Pascuala Ramos
+- Belén Silva
