@@ -3,3 +3,4 @@
 - Fernanda Vallejo
 - María Fernanda Nahum
 - Katherine Sepúlveda
+- Pascuala Ramos
