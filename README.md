@@ -7,3 +7,4 @@
 - Belén Silva
 - Paula Muñoz
 - Benjamin Ojeda
+- Katherine Joo
