@@ -592,7 +592,7 @@ html {
 }
 
 /* ********************************** */
-/*                BLOGS               */
+/*              AUTORES               */
 /* ********************************** */
 .blogs {
 	display: flex;
@@ -600,10 +600,15 @@ html {
 	gap: 2rem;
 }
 
+.heading-1 h1{
+	margin: 200px;
+}
+
 .container-blogs {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
+
 }
 
 .card-blog {
@@ -617,6 +622,7 @@ html {
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
+	width: 300px;
 }
 
 .button-group-blog {
