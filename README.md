@@ -8,3 +8,4 @@
 - Paula Muñoz
 - Benjamin Ojeda
 - Katherine Joo
+- Isabella Valenzuela
