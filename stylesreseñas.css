@@ -3,6 +3,18 @@
 
 body {background-color: #f9f5f0; }
 
-h1 {background: #18314f; color: white; text-align: center; padding: 30px;}
-p {margin-left: 200px;}
+.foto {width: 700px;
+margin-left: 250px;
+}
+
+footer {background-color: #18314f;
+padding: 60px;}
+
+h1 {background: #18314f; color: white; text-align: center; padding: 30px;
+font-family: 'Poppins', sans-serif}
+h2 {margin-left: 200px;
+font-family: 'Poppins', sans-serif}
+p {margin-left: 200px;
+margin-right: 200px;
+font-family: 'Poppins', sans-serif}
 
