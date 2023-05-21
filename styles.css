@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #c7a17a;
+	--primary-color: #18314f;
 	--background-color: #f9f5f0;
 	--dark-color: #151515;
 }
@@ -203,7 +203,7 @@ html {
 /* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
-		url('img/banner.jpg');
+		url('img/banner.gif');
 	height: 60rem;
 	background-size: cover;
 	background-position: center;
