@@ -18,3 +18,56 @@ p {margin-left: 200px;
 margin-right: 200px;
 font-family: 'Poppins', sans-serif}
 
+background-color: #573E23; 
+  color: #F8E6C7; 
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-div {
+  text-align: center;
+}
+
+.social-media {
+  display: inline-block;
+  margin: auto;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #666;
+}
