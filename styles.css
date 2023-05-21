@@ -259,7 +259,7 @@ html {
 
 .card-feature {
 	display: flex;
-	align-items: center;
+	align-items: cent7er;
 	justify-content: center;
 	gap: 1.5rem;
 
@@ -1035,3 +1035,5 @@ html {
 		font-size: 1.6rem;
 	}
 }
+
+
