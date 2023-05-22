@@ -34,13 +34,13 @@ html {
 /* ********************************** */
 /*               HEADER               */
 /* ********************************** */
-.container-hero {
+.container-titulo {
 	background-color: var(--background-color);
 }
 
-.hero {
+.titulo {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 2rem 0;
 }
@@ -78,11 +78,6 @@ html {
 	letter-spacing: -1px;
 }
 
-.container-user {
-	display: flex;
-	gap: 1rem;
-	cursor: pointer;
-}
 
 .container-user .fa-user {
 	font-size: 3rem;
@@ -103,24 +98,24 @@ html {
 }
 
 /* ************* NAVBAR ************* */
-.container-navbar {
+.container-menu {
 	background-color: var(--primary-color);
 }
 
-.navbar {
+.menu1 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
-.navbar .fa-bars {
+.menu1 .fa-bars {
 	display: none;
 }
 
 .menu {
 	display: flex;
-	gap: 2rem;
+	gap: 6rem;
 }
 
 .menu li {
@@ -129,7 +124,7 @@ html {
 
 .menu a {
 	text-decoration: none;
-	font-size: 1.3rem;
+	font-size: 2rem;
 	color: white;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -416,42 +411,35 @@ html {
 }
 
 /* ********************************** */
-/*              SPECIALS              */
-/* ********************************** */
-.specials {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
-
-/* ********************************** */
 /*              AUTORES               */
 /* ********************************** */
-.blogs {
+.autores {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+
 }
 
 .heading-1 h1{
 	margin: 200px;
 }
 
-.container-blogs {
+.container-autores {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
+	margin-left: 50px;
+
 
 }
 
-.card-blog {
+.card-autores {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
 }
 
-.card-blog .container-img {
+.card-autores .container-img {
 	border-radius: 2rem;
 	cursor: pointer;
 	position: relative;
@@ -459,82 +447,28 @@ html {
 	width: 300px;
 }
 
-.button-group-blog {
-	position: absolute;
-	bottom: 1.5rem;
-	right: -2.5rem;
 
-	display: flex;
-	gap: 0.7rem;
-	z-index: -1;
-	transition: all 0.3s ease;
-}
-
-.card-blog:hover .button-group-blog {
-	z-index: 0;
-	right: 1.5rem;
-}
-
-.button-group-blog span {
-	background-color: #fff;
-	padding: 1rem;
-	border-radius: 50%;
-	transition: all 0.4s ease;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.button-group-blog span i {
-	font-size: 1.3rem;
-}
-
-.button-group-blog span:hover {
-	background-color: var(--primary-color);
-}
-
-.button-group-blog span:hover i {
-	color: #fff;
-}
-
-.content-blog h3 {
+.content-autores h3 {
 	font-size: 1.8rem;
 	margin-bottom: 1.7rem;
 	color: var(--dark-color);
 	font-weight: 500;
 }
 
-.content-blog h3:hover {
+.content-autores h3:hover {
 	color: var(--primary-color);
 	cursor: pointer;
 }
 
-.content-blog p {
+.content-autores p {
 	margin-top: 1rem;
 	font-size: 1.4rem;
 	color: #777;
 }
 
-.content-blog span {
+.content-autores span {
 	color: var(--primary-color);
 	font-size: 1.3rem;
-}
-
-.btn-read-more {
-	padding: 1rem 3rem;
-	background-color: var(--primary-color);
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.4rem;
-	border-radius: 2rem;
-	margin: 3rem 0 5rem;
-	display: inline-block;
-	cursor: pointer;
-}
-
-.btn-read-more:hover {
-	background-color: var(--dark-color);
 }
 
 
@@ -659,8 +593,7 @@ html {
 }
 
 
-
-
+.imgentre {margin-left: 480px; width: 500px;}
 
 
 /* ********************************** */
@@ -676,13 +609,14 @@ html {
 	flex-direction: column;
 	gap: 4rem;
 	padding: 3rem;
+
 }
 
 .menu-footer {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr) 30rem;
 	gap: 3rem;
-	justify-items: center;
+	justify-items: space-between;
 }
 
 .title-footer {
@@ -757,7 +691,7 @@ html {
 
 .copyright {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	padding-top: 2rem;
 
 	border-top: 1px solid #d2b495;
@@ -952,9 +886,6 @@ html {
 		font-size: 2.2rem;
 	}
 
-	.btn-read-more{
-		font-size: 1.8rem;
-	}
 
 	.contact-info ul,
 	.information ul,

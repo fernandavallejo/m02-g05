@@ -16,10 +16,24 @@ h2 {margin-left: 200px;
 font-family: 'Poppins', sans-serif}
 p {margin-left: 200px;
 margin-right: 200px;
-font-family: 'Poppins', sans-serif}
+font-family: 'Poppins', sans-serif; margin-top: 30px;}
 
 background-color: #573E23; 
   color: #F8E6C7; 
   padding: 10px 20px;
   text-align: center;
   font-size: 12px;
+
+
+
+/* ********************************** */
+/*               FOOTER               */
+/* ********************************** */
+
+.footer {
+  background-color: var(--primary-color);
+}
+
+.fotoface {width: 700px;
+margin-left: 250px;
+}
